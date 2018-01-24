@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "822675534067",
+    "firebase_url": "https://fir-auth-61e4b.firebaseio.com",
+    "project_id": "fir-auth-61e4b",
+    "storage_bucket": "fir-auth-61e4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822675534067:android:09c82080e93ce7c1",
+        "android_client_info": {
+          "package_name": "com.abeer_m.shop_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822675534067-vhtgh8dtlo7soqrhcdvgs7e5q8fd6ffv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVQzH0KQ6kXb8UNSsYaC1_8EF-pFyNbmc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

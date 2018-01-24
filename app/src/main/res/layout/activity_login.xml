@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:background="@color/white">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+       android:layout_margin="10dp"
+        android:layout_below="@+id/imageView"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:hint="@string/or"
+        android:textSize="20dp"
+        android:id="@+id/or"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/or"
+        android:hint="@string/e_mail"
+        android:id="@+id/email"
+        android:background="@drawable/text_shape"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:hint="@string/password"
+        android:id="@+id/password"
+        android:background="@drawable/text_shape"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:padding="6dp"
+        android:text="@string/forget_password"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:layout_below="@+id/password"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/remmember"
+        android:textColor="@color/gray"
+        android:id="@+id/checkBox" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/log"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_below="@+id/forgetpassword"
+    android:id="@+id/btnlog"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/text_shape"/>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlog"
+        android:layout_toEndOf="@+id/btnlog"
+        android:layout_toRightOf="@+id/btnlog"
+        android:padding="6dp"
+        android:text="@string/sign_up"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/signup"
+        android:layout_alignBottom="@+id/signup"
+        android:layout_toLeftOf="@+id/signup"
+        android:layout_toStartOf="@+id/signup"
+        android:padding="6dp"
+        android:text="@string/new_account"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/signup"
+        android:padding="6dp"
+        android:text="@string/skip"
+        android:textSize="15dp"
+        android:id="@+id/skip"/>
+</RelativeLayout>

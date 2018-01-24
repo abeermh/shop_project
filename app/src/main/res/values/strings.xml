@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="log_with_facebook"> Login With Facebook</string>
+    <string name="e_mail">E_mail</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="remmember">Remmember Me</string>
+    <string name="new_account">Create New Account? </string>
+    <string name="sign_up"> Sign Up</string>
+    <string name="skip">skip</string>
+    <string name="or">--------------------OR-------------------</string>
+    <string name="log">login</string>
+    <string name="register">Register</string>
+    <string name="facebook_app_id">318714095307291</string>
+    <string name="fb_login_protocol_scheme">fb318714095307291</string>
+    <string name="send">send</string>
+    <string name="instruction">to reset your password please enter email to send you instructions to reset your password</string>
+    <string name="resetpassword">Reset Password</string>
+</resources>
